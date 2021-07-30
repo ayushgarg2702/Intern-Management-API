@@ -2,7 +2,7 @@
 Contain API for Intern Management
 
 First you need to set environment on your local system.
-> virtual env
+> virtualenv env
 
 Then you need to activate environment
 > .\env\Scripts\activate

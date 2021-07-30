@@ -1,0 +1,6 @@
+<p>Dear {{user.firstname | capfirst}},</p>
+<p>Thank you for registering with Loan management System.
+    Kindly click the following link to activate your account</p>
+<p><a href="http://{{domain}}{% url 'activate' uidb64=uid token=token %}">http://{{domain}}{% url 'activate' uidb64=uid token=token %}</a> </p>
+<p>Kind regards</p>
+<p>Loan Management System, CTI</p>
